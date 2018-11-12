@@ -65,6 +65,10 @@ button:focus {
     outline: 1px solid lightgray;
     outline-offset: 0px
 }
+button:hover{
+    margin: 0px 2px;
+    border: 2px solid orange;
+}
 
 
 

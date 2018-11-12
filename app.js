@@ -5,6 +5,14 @@ makeButton("islands")
 makeButton("steelers")
 makeButton("mario")
 
+$("#clearBtns").on("click", function(event){
+    event.preventDefault();
+
+    $("#animals-view").empty()
+    $("#buttonDiv").empty()
+    topicsArray = []
+})
+
 $("#add-animal").on("click", function (event) {
     event.preventDefault();
 
