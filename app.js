@@ -4,7 +4,9 @@ var topicsArray = []
 makeButton("islands")
 makeButton("steelers")
 makeButton("mario")
-
+$(document).ready(function(){
+    $(".container").animate({opacity:1}, 2000)
+})
 $("#clearBtns").on("click", function(event){
     event.preventDefault();
     $(".hideThis").addClass("remove")

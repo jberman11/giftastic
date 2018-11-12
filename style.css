@@ -12,6 +12,7 @@
 }
 .container {
     text-align: center;
+    opacity:0;
 }
 body {
     background-image: url("assets/images/gplaypattern/gplaypattern.png");
