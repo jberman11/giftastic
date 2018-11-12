@@ -18,12 +18,15 @@ body {
     background-image: url("assets/images/gplaypattern/gplaypattern.png");
     background-attachment: fixed;
 }
+h1 {
+    margin-top: 5px;
+}
 
 #buttonDiv {
     /* display: block; */
     margin: 20px 5px;
     width: 150px;
-    height: 530px;
+    height: 330px;
     overflow-y: auto;
     border: 2px double black;
     border-radius: 10px;
@@ -37,12 +40,12 @@ body {
     /* display:block; */
     margin: 20px 5px;
     width: 310px;
-    height: 550px;
+    height: 350px;
     overflow-y: auto;
     border: 2px double black;
     border-radius: 10px;
     padding: 0 25px;
-    background-image: url("assets/images/original.jpg");
+    background-image: url("https://www.thewonderforest.com/wp-content/uploads/2016/03/pinkwatercolordesktop.jpg");
     background-attachment: fixed;
 }
 img {
