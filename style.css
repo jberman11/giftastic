@@ -1,1 +1,91 @@
-.rating
+.asap {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    
+}
+.center{
+    display: inline-block;
+    margin: auto;
+    
+}
+.container {
+    text-align: center;
+}
+
+#buttonDiv {
+    /* display: block; */
+    margin: 20px 5px;
+    width: 150px;
+    height: 530px;
+    overflow-y: auto;
+    border: 2px double black;
+    border-radius: 10px;
+    padding: 10px 5px;
+    float: left;
+
+}
+#animals-view {
+    /* display:block; */
+    margin: 20px 5px;
+    width: 310px;
+    height: 550px;
+    overflow-y: auto;
+    border: 2px double black;
+    border-radius: 10px;
+    padding: 0 25px;
+    
+}
+img {
+    width: 200px;
+
+}
+input {
+    border: 2px double black;
+    border-radius: 10px;
+
+}
+input:focus {
+    outline: 1px solid lightgray;
+    outline-offset: 0px
+}
+
+button {
+    margin:2px 2px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    float: none;
+    border:none;
+    border-radius: 5px;
+    padding: 3px 0px;
+    font-family: "Ubuntu Condensed", sans-serif;
+}
+button:focus {
+    outline: 1px solid lightgray;
+    outline-offset: 0px
+}
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+    
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background:black; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+
+}
