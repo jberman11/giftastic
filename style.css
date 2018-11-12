@@ -7,8 +7,15 @@
     margin: auto;
     
 }
+.hideThis{
+    opacity: 0;
+}
 .container {
     text-align: center;
+}
+body {
+    background-image: url("assets/images/gplaypattern/gplaypattern.png");
+    background-attachment: fixed;
 }
 
 #buttonDiv {
@@ -21,6 +28,8 @@
     border-radius: 10px;
     padding: 10px 5px;
     float: left;
+    background-image: url("assets/images/original.jpg");
+    background-attachment: fixed;
 
 }
 #animals-view {
@@ -32,7 +41,8 @@
     border: 2px double black;
     border-radius: 10px;
     padding: 0 25px;
-    
+    background-image: url("assets/images/original.jpg");
+    background-attachment: fixed;
 }
 img {
     width: 200px;
